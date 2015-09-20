@@ -1,0 +1,64 @@
+<!--
+theme name:		Carbon
+version:		1.0
+author:			eric hettervik
+license:		creative commons CC-BY-NC-SA
+based on:		"simple" by nils bonenberger
+-->
+
+<theme>
+    <formatVersion>3</formatVersion>
+
+	<view name="system">
+	
+		<image name="background" extra="true">
+			<size>0 1</size>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+		</image>
+	</view>
+
+
+    	<view name="basic, detailed">
+
+		<image name="md_image">
+			<pos>.5 .38</pos>
+<!-- 			<size>0.23 0.301</size>
+ -->			<maxSize>0.40 0.40</maxSize>
+			<origin>.5 .5</origin>
+		</image>
+		
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_description, md_releasedate, md_lastplayed">
+			<pos>1 1</pos>
+		</text>
+
+		<textlist name="gamelist">
+			<selectorColor>424242</selectorColor>
+			<selectedColor>4C0000</selectedColor>
+			<primaryColor>393a3b</primaryColor>
+			<secondaryColor>181417</secondaryColor>
+			<fontPath>./art/Cabin-Bold-TTF.ttf</fontPath>
+			<fontSize>0.05</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<pos>0 0.20</pos>
+			<size>1 .72</size>
+			<scrollSound>./art/flipper.wav</scrollSound>
+		</textlist>
+		 
+	</view>
+
+	<view name="basic">
+	
+	</view>
+
+	<view name="detailed">
+		<textlist name="gamelist">
+			<pos>0 0.60</pos>
+			<size>1 .30</size>
+			<fontSize>0.04</fontSize>
+			<alignment>center</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+		</textlist>
+	</view>
+	
+</theme>
