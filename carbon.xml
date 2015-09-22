@@ -16,23 +16,14 @@ based on:		"simple" by nils bonenberger
 			<pos>0 0</pos>
 			<origin>0 0</origin>
 			<size>1 1</size>
-			<path>./../art/carbon_fiber.png</path>
-		</image>
-		
-		<image name="overlay" extra="true">
-			<tile>false</tile>
-			<pos>0.5 0.2</pos>
-			<origin>0.5 0.5</origin>
-			<size>0.3 0</size>
-			<path>./art/controller.svg</path>
-			<color>8b0000</color>
+			<path>./art/carbon_fiber.png</path>
 		</image>
 		
 		<image name="bottom" extra="true">
 			<pos>0 1</pos>
 			<origin>0 1</origin>
 			<size>1 0.060</size>
-			<path>./../art/system_bottom.png</path>
+			<path>./art/system_bottom.png</path>
 		</image> 
 		
 		<image name="logo">
@@ -61,21 +52,21 @@ based on:		"simple" by nils bonenberger
 			<pos>0 0</pos>
 			<origin>0 0</origin>
 			<size>1 1</size>
-			<path>./../art/carbon_fiber.png</path>
+			<path>./art/carbon_fiber.png</path>
 		</image>
 		
 		<image name="bottom" extra="true">
 			<pos>0 1</pos>
 			<origin>0 1</origin>
 			<size>1 0.065</size>
-			<path>./../art/bottom.png</path>
+			<path>./art/bottom.png</path>
 		</image> 
 		
 		<image name="top" extra="true">
 			<pos>0 0</pos>
 			<origin>0 0</origin>
 			<size>1 0.16</size>
-			<path>./../art/top.png</path>
+			<path>./art/top.png</path>
 		</image> 
 
 		<image name="md_image">
