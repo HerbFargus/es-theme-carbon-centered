@@ -10,12 +10,34 @@ based on:		"simple" by nils bonenberger
     <formatVersion>3</formatVersion>
 
 	<view name="system">
-	
+		
 		<image name="background" extra="true">
-			<size>0 1</size>
-			<pos>0.5 0.5</pos>
-			<origin>0.5 0.5</origin>
+			<tile>true</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./../art/carbon_fiber.png</path>
 		</image>
+		
+		<image name="overlay" extra="true">
+			<tile>false</tile>
+			<pos>0.5 0.2</pos>
+			<origin>0.5 0.5</origin>
+			<size>0.3 0</size>
+			<path>./art/controller.svg</path>
+			<color>8b0000</color>
+		</image>
+		
+		<image name="bottom" extra="true">
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<size>1 0.060</size>
+			<path>./../art/system_bottom.png</path>
+		</image> 
+		
+		<image name="logo">
+			<path>./art/system.svg</path>
+        </image>
 		
 		<helpsystem name="help">
 			<textColor>7d7d7d</textColor>
@@ -26,6 +48,35 @@ based on:		"simple" by nils bonenberger
 
 
     	<view name="basic, detailed">
+		
+		<image name="logo">
+			<path>./art/system.svg</path>
+			<pos>0.025 0.0775</pos>
+			<maxSize>0.55 0.1</maxSize>
+			<origin>0 0.5</origin>
+		</image>
+		
+		<image name="background" extra="true">
+			<tile>true</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./../art/carbon_fiber.png</path>
+		</image>
+		
+		<image name="bottom" extra="true">
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<size>1 0.065</size>
+			<path>./../art/bottom.png</path>
+		</image> 
+		
+		<image name="top" extra="true">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 0.16</size>
+			<path>./../art/top.png</path>
+		</image> 
 
 		<image name="md_image">
 			<pos>.5 .38</pos>
@@ -42,7 +93,7 @@ based on:		"simple" by nils bonenberger
 			<selectorColor>424242</selectorColor>
 			<selectedColor>4C0000</selectedColor>
 			<primaryColor>393a3b</primaryColor>
-			<secondaryColor>181417</secondaryColor>
+			<secondaryColor>633636</secondaryColor>
 			<fontPath>./art/Cabin-Bold-TTF.ttf</fontPath>
 			<fontSize>0.05</fontSize>
 			<forceUppercase>1</forceUppercase>
