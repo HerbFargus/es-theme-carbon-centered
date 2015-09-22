@@ -50,6 +50,11 @@ based on:		"simple" by nils bonenberger
 			<size>1 .72</size>
 			<scrollSound>./art/flipper.wav</scrollSound>
 		</textlist>
+		
+		<helpsystem name="help">
+			<textColor>7d7d7d</textColor>
+			<iconColor>8b0000</iconColor>
+		</helpsystem>
 		 
 	</view>
 
