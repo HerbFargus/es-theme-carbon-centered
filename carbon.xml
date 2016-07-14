@@ -1,117 +1,35 @@
-<!--
-theme name:		Carbon
-version:		1.0
-author:			eric hettervik
-license:		creative commons CC-BY-NC-SA
-based on:		"simple" by nils bonenberger
+<!-- 
+Theme: Carbon
+version: 2.0
+author: Eric Hettervik (Rookervik)
+license: creative commons CC-BY-NC-SA
+originally based on: "simple" by nils bonenberger
+
+To change theme color, edit this line:
+
+<include>./carbon_red.xml</include>
+				 _blue
+				 _green
+				 _yellow
+				 _orange
+				 _purple
+				 _teal
+				 _pink
+
+Reference Colors:
+	Red 	8b 00 00
+	Blue 	30 82 ce
+	Green 	50 d6 2c
+	Yellow	ef bc 0b
+	Orange	ef 71 0b
+	Purple	ac 0b ef
+	Teal	04 e9 f7
+	Pink	f5 02 97
 -->
+
+
 
 <theme>
     <formatVersion>3</formatVersion>
-
-	<view name="system">
-		
-		<image name="background" extra="true">
-			<tile>true</tile>
-			<pos>0 0</pos>
-			<origin>0 0</origin>
-			<size>1 1</size>
-			<path>./art/carbon_fiber.png</path>
-		</image>
-		
-		<image name="bottom" extra="true">
-			<pos>0 1</pos>
-			<origin>0 1</origin>
-			<size>1 0.060</size>
-			<path>./art/system_bottom.png</path>
-		</image> 
-		
-		<image name="logo">
-			<path>./art/system.svg</path>
-        </image>
-		
-		<helpsystem name="help">
-			<textColor>7d7d7d</textColor>
-			<iconColor>8b0000</iconColor>
-		</helpsystem>
-
-	</view>
-
-
-    	<view name="basic, detailed">
-		
-		<image name="logo">
-			<path>./art/system.svg</path>
-			<pos>0.025 0.0775</pos>
-			<maxSize>0.55 0.1</maxSize>
-			<origin>0 0.5</origin>
-		</image>
-		
-		<image name="background" extra="true">
-			<tile>true</tile>
-			<pos>0 0</pos>
-			<origin>0 0</origin>
-			<size>1 1</size>
-			<path>./art/carbon_fiber.png</path>
-		</image>
-		
-		<image name="bottom" extra="true">
-			<pos>0 1</pos>
-			<origin>0 1</origin>
-			<size>1 0.065</size>
-			<path>./art/bottom.png</path>
-		</image> 
-		
-		<image name="top" extra="true">
-			<pos>0 0</pos>
-			<origin>0 0</origin>
-			<size>1 0.16</size>
-			<path>./art/top.png</path>
-		</image> 
-
-		<image name="md_image">
-			<pos>.5 .38</pos>
-<!-- 			<size>0.23 0.301</size>
- -->			<maxSize>0.40 0.40</maxSize>
-			<origin>.5 .5</origin>
-		</image>
-		
-		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_description, md_releasedate, md_lastplayed">
-			<pos>1 1</pos>
-		</text>
-
-		<textlist name="gamelist">
-			<selectorColor>1c1c1c</selectorColor>
-			<selectedColor>8b0000</selectedColor>
-			<primaryColor>969696</primaryColor>
-			<secondaryColor>7a6161</secondaryColor>
-			<fontPath>./art/Cabin-Bold-TTF.ttf</fontPath>
-			<fontSize>0.05</fontSize>
-			<forceUppercase>1</forceUppercase>
-			<pos>0 0.20</pos>
-			<size>1 .72</size>
-			<scrollSound>./art/select.wav</scrollSound>
-		</textlist>
-		
-		<helpsystem name="help">
-			<textColor>7d7d7d</textColor>
-			<iconColor>8b0000</iconColor>
-		</helpsystem>
-		 
-	</view>
-
-	<view name="basic">
-	
-	</view>
-
-	<view name="detailed">
-		<textlist name="gamelist">
-			<pos>0 0.60</pos>
-			<size>1 .30</size>
-			<fontSize>0.04</fontSize>
-			<alignment>center</alignment>
-			<horizontalMargin>0.01</horizontalMargin>
-		</textlist>
-	</view>
-	
+		<include>./carbon_red.xml</include>	
 </theme>
